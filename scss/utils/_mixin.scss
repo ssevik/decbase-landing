@@ -1,0 +1,94 @@
+@mixin transition($tipe) {
+  transition-property: $tipe;
+  transition-duration: 300ms;
+  transition-timing-function: $animation-cubic-bezier;
+}
+
+@mixin padding($type...) {
+  padding: $type;
+}
+
+@mixin subtitle {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 2.25;
+  text-transform: uppercase;
+}
+
+@mixin title {
+  color: $accent-text-color;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.625;
+}
+
+@mixin footer-title {
+  color: #111111;
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.375;
+}
+
+@mixin btn {
+  display: inline-block;
+  text-align: center;
+
+  padding-right: 20px;
+  padding-left: 20px;
+
+  // min-width: 132px;
+  min-height: 42px;
+
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  background-color: $btn-bg-color;
+  color: $btn-text-color;
+
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 2.3;
+  text-transform: uppercase;
+
+  @include transition(background-color);
+
+  &:hover,
+  &:focus {
+    background-color: $hover-btn-color;
+  }
+}
+
+@mixin img-border {
+  border-top-left-radius: 8.75rem;
+  border-bottom-right-radius: 8.75rem;
+}
+
+@mixin img-decor {
+  content: '';
+  display: block;
+
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: transparent;
+
+  border: 2px solid $hover-color;
+
+  z-index: -1;
+}
+
+@mixin bg-decor {
+  content: '';
+  position: absolute;
+
+  display: block;
+  width: 212px;
+  height: 153px;
+
+  background-image: url('../images/decor.svg');
+}

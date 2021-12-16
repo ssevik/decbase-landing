@@ -1,0 +1,59 @@
+.service {
+  @include padding(8.833em 0 11.333em);
+}
+
+.service-subtitle {
+  @include subtitle;
+}
+
+.service-title {
+  margin-bottom: 1.041em;
+
+  @include title;
+}
+
+.service-list {
+  display: flex;
+}
+
+.service-item {
+  display: flex;
+  align-items: flex-start;
+
+  @include padding(2.222em 1.277em 1.944em 2.055em);
+
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+  background-color: $btn-text-color;
+
+  @include transition(background-color);
+  @include transition(color);
+
+  &:hover {
+    background-color: $bg-color;
+    color: $btn-text-color;
+  }
+
+  &:not(:last-child) {
+    margin-right: 2.055em;
+  }
+}
+
+.service-item__icon {
+  margin-right: 0.944em;
+
+  width: 40px;
+  height: 40px;
+}
+
+.content__title {
+  margin-bottom: 0.508em;
+
+  color: $accent-text-color;
+
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>decbase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="">
+            <img
+              srcset="./images/logo-1x.png 1x, ./images/logo-2x.png 2x"
+              src="./images/logo-1x.png"
+              alt="logo"
+              width="151"
+            />
+          </a>
+
+          <ul class="header-menu">
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="">HOME</a>
+            </li>
+
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="">PROJECT</a>
+            </li>
+
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="">SERVICES</a>
+            </li>
+
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="">ABOUT</a>
+            </li>
+
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="">BLOG</a>
+            </li>
+
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="">SHOP</a>
+            </li>
+
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="">CONTACT</a>
+            </li>
+          </ul>
+
+          <a class="header-btn" href="">Sign Up</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero start -->
+      <section>
+        <div class="container hero">
+          <div class="hero__inner">
+            <p class="hero__subtitle">MODERN INTERIOR</p>
+            <h1 class="hero__title">Create Your Interior Design.</h1>
+            <p class="hero__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation.
+            </p>
+
+            <div class="hero__btn">
+              <a class="btn__link" href="">CONTACT</a>
+            </div>
+          </div>
+
+          <div class="block-img">
+            <img
+              class="hero__img"
+              srcset="./images/hero-1x.jpg 1x, ./images/hero-2x.jpg 2x"
+              src="./images/hero-1x.jpg"
+              alt="Hall"
+              width="751"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- hero end -->
+
+      <!-- Our service start -->
+      <section>
+        <div class="container service">
+          <p class="service-subtitle">WHAT WE DO</p>
+          <h2 class="service-title">Our Service</h2>
+
+          <!-- <ul class="service-arrows">
+            <li class="arrows__item">
+              <svg class="arrows__prew">
+                <use href="./images/sprite.svg#arrows-prew"></use>
+              </svg>
+            </li>
+
+            <li class="arrows__item">
+              <svg class="arrows__next">
+                <use href="./images/sprite.svg#arrows-next"></use>
+              </svg>
+            </li>
+          </ul> -->
+
+          <ul class="service-list">
+            <li class="service-item">
+              <img
+                class="service-item__icon"
+                srcset="./images/service-1-1x.png 1x, ./images/service-1-2x.png 2x"
+                src="./images/service-1-1x.png"
+                alt="Interior Design"
+                width="40"
+              />
+              <div class="service-item__content">
+                <h3 class="content__title">Interior Design</h3>
+                <p class="content__text">
+                  Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt
+                  ut labore.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <img
+                class="service-item__icon"
+                srcset="./images/service-2-1x.png 1x, ./images/service-2-2x.png 2x"
+                src="./images/service-2-1x.png"
+                alt="Architecture"
+                width="40"
+              />
+              <div class="service-item__content">
+                <h3 class="content__title">Architecture</h3>
+                <p class="content__text">
+                  Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt
+                  ut labore.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <img
+                class="service-item__icon"
+                srcset="./images/service-3-1x.png 1x, ./images/service-3-2x.png 2x"
+                src="./images/service-3-1x.png"
+                alt="Planning"
+                width="40"
+              />
+              <div class="service-item__content">
+                <h3 class="content__title">Planning</h3>
+                <p class="content__text">
+                  Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt
+                  ut labore.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Our service end -->
+
+      <!--about start -->
+      <section>
+        <div class="container about">
+          <div class="img">
+            <img
+              class="img__about"
+              srcset="./images/about-1x.jpg 1x, ./images/about-2x.jpg 2x"
+              src="./images/about-1x.jpg"
+              alt="Bedroom"
+              width="717"
+            />
+          </div>
+
+          <div class="about__inner">
+            <p class="about__subtitle">ABOUT US</p>
+            <h2 class="about__title">Interioris The Will of An Epoch Mextreo</h2>
+            <p class="about__text">
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form injected humour, or randomised words which don't look
+              even slightly believable.If you are going to use a passage of Lorem Ipsum, sure there
+              isn't anything embarrassing hidden the middleof text. All the Lorem Ipsum generators
+              on the Internettend to repeat predefined chunks as necessary,making this the first
+              true generator on the Internet.
+            </p>
+
+            <div class="about__btn">
+              <a class="btn__link--about" href="">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--about end -->
+
+      <!-- successful start -->
+      <section>
+        <div class="container successful">
+          <div class="successful__inner">
+            <div class="mask">
+              <h2 class="successful__title">20</h2>
+            </div>
+            <p class="successful__text">Years Of Successful Working The Market</p>
+            <div class="btn">
+              <a class="successful__btn" href="">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="successful__block">
+            <img
+              class="successful__img"
+              srcset="./images/successful-1x.jpg 1x, ./images/successful-2x.jpg 2x"
+              src="./images/successful-1x.jpg"
+              alt="wall shelf"
+              width="681"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- successful end -->
+
+      <!-- work start -->
+      <section class="bg-color">
+        <div class="container work">
+          <h2 class="work__title">3000+ Completed Work Which WE have Successfully Done</h2>
+
+          <ul class="work__list">
+            <li class="work__item">
+              <p class="work__item--num">980</p>
+              <p class="work__item--text">Project</p>
+
+              <div class="line-decor">
+                <span class="line-decor__1"></span>
+                <span class="line-decor__2"></span>
+                <span class="line-decor__3"></span>
+              </div>
+            </li>
+
+            <li class="work__item">
+              <p class="work__item--num">520</p>
+              <p class="work__item--text">Happy Client</p>
+              <div class="line-decor">
+                <span class="line-decor__1--rov"></span>
+                <span class="line-decor__2--rov"></span>
+                <span class="line-decor__3--rov"></span>
+              </div>
+            </li>
+
+            <li class="work__item">
+              <p class="work__item--num">330</p>
+              <p class="work__item--text">Winners</p>
+              <div class="line-decor">
+                <span class="line-decor__1"></span>
+                <span class="line-decor__2"></span>
+                <span class="line-decor__3"></span>
+              </div>
+            </li>
+
+            <li class="work__item">
+              <p class="work__item--num">120</p>
+              <p class="work__item--text">Recoment</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- work end -->
+
+      <!-- testimonials start -->
+      <section>
+        <div class="container testimonials">
+          <div class="testimonials__body">
+            <p class="testimonials__subtitle">TESTIMONIALS</p>
+            <h2 class="testimonials__title">Client says about us</h2>
+          </div>
+
+          <!-- <ul class="testimonials-arrows">
+            <li class="arrows__item">
+              <svg class="arrows__prew">
+                <use href="./images/sprite.svg#arrows-prew"></use>
+              </svg>
+            </li>
+
+            <li class="arrows__item">
+              <svg class="arrows__next">
+                <use href="./images/sprite.svg#arrows-next"></use>
+              </svg>
+            </li>
+          </ul> -->
+
+          <ul class="testimonials__list">
+            <li class="testimonials__item">
+              <div class="box-img">
+                <img
+                  class="testimonials__item--img"
+                  srcset="./images/testimonials-1-1x.jpg 1x, ./images/testimonials-1-2x.jpg 2x"
+                  src="./images/testimonials-1-1x.jpg"
+                  alt="Louis Saville"
+                  width="130"
+                />
+              </div>
+
+              <div class="box-content">
+                <h3 class="testimonials__item--title">
+                  Louis Saville <span class="testimonials__item--sub">/CEO at Google inc</span>
+                </h3>
+                <p class="testimonials__item--text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </li>
+
+            <li class="testimonials__item">
+              <div class="box-img">
+                <img
+                  class="testimonials__item--img"
+                  srcset="./images/testimonials-2-1x.jpg 1x, ./images/testimonials-2-2x.jpg 2x"
+                  src="./images/testimonials-2-1x.jpg"
+                  alt="Rekha Varadwaz"
+                  width="130"
+                />
+              </div>
+
+              <div class="box-content">
+                <h3 class="testimonials__item--title">
+                  Rekha Varadwaz <span class="testimonials__item--sub">/Manager at Nike inc</span>
+                </h3>
+                <p class="testimonials__item--text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- testimonials end -->
+
+      <!-- blog start -->
+      <section class="bg__blog">
+        <div class="container blog">
+          <div class="blog__content">
+            <p class="blog__subtitle">LETEST NEWS</p>
+            <h2 class="blog__title">From Our Blog</h2>
+          </div>
+
+          <ul class="blog__list">
+            <li class="blog__item">
+              <div class="box__image">
+                <img
+                  class="blog__item--img"
+                  srcset="./images/blog-1-1x.jpg 1x, ./images/blog-1-2x.jpg 2x"
+                  src="./images/blog-1-1x.jpg"
+                  alt="chest of drawers in the hallway"
+                  width="554"
+                />
+              </div>
+              <div class="blog__body">
+                <h3 class="blog__item--title">2020 Interior Design Trends</h3>
+                <p class="blog__item--text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+
+                <div class="blog__button">
+                  <a class="blog__item--btn" href="">CONTINUE READING....</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog__item">
+              <div class="box__image">
+                <img
+                  class="blog__item--img"
+                  srcset="./images/blog-2-1x.jpg 1x, ./images/blog-2-2x.jpg 2x"
+                  src="./images/blog-2-1x.jpg"
+                  alt="small fresh room"
+                  width="554"
+                />
+              </div>
+
+              <div class="blog__body">
+                <h3 class="blog__item--title">28 Notable Product at ARC Interior Design</h3>
+                <p class="blog__item--text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+                <div class="blog__button">
+                  <a class="blog__item--btn" href="">CONTINUE READING....</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- blog end -->
+
+      <!-- subscribe start -->
+      <section>
+        <div class="container subscribe">
+          <h2 class="subscribe__title">DON’T FORGET TO SIGN UP</h2>
+          <p class="subscribe__text">
+            Find out early about all upcoming promotions and new product releases with our
+            newsletter.
+          </p>
+
+          <form class="form">
+            <label class="form__label">
+              <input
+                class="form__input"
+                type="email"
+                name="mail"
+                placeholder="Enter your email address....."
+              />
+            </label>
+
+            <button class="form__btn" type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+      </section>
+      <!-- subscribe end -->
+    </main>
+
+    <!-- footer start -->
+    <footer class="bg__blog footer__decor">
+      <div class="container">
+        <div class="footer">
+          <div class="logo__body">
+            <a class="logo logo__footer" href="">
+              <img
+                srcset="./images/logo-1x.png 1x, ./images/logo-2x.png 2x"
+                src="./images/logo-1x.png"
+                alt="logo"
+                width="151"
+              />
+            </a>
+            <p class="footer__text">
+              But i must explain to you all this mistaken idea of dencouncing pleasure.
+            </p>
+          </div>
+
+          <div class="quick">
+            <b class="footer__title">Quick Links</b>
+            <ul class="quick__list">
+              <li class="quick__item">
+                <a class="quick__link" href="">About Our Company</a>
+              </li>
+              <li class="quick__item">
+                <a class="quick__link" href="">Services WE provide</a>
+              </li>
+              <li class="quick__item">
+                <a class="quick__link" href="">Career & Opportunity</a>
+              </li>
+              <li class="quick__item">
+                <a class="quick__link" href="">Privacy & policy</a>
+              </li>
+              <li class="quick__item">
+                <a class="quick__link" href="">Contact US</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="company">
+            <b class="footer__title">Company</b>
+            <ul class="company__list">
+              <li class="company__item">
+                <a class="company__link" href="">About Company</a>
+              </li>
+              <li class="company__item">
+                <a class="company__link" href="">Our Testimonials</a>
+              </li>
+              <li class="company__item">
+                <a class="company__link" href="">Latest News</a>
+              </li>
+              <li class="company__item">
+                <a class="company__link" href="">Our misson</a>
+              </li>
+              <li class="company__item">
+                <a class="company__link" href="">Get a free Quot</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact">
+            <b class="footer__title">Contact us</b>
+            <address>
+              <ul class="contact__list">
+                <li class="contact__item">
+                  <a class="contact__link" href="">Sagrada Familia, Herba</a>
+                </li>
+                <li class="contact__item">
+                  <a class="contact__link" href="">Street Front USA</a>
+                </li>
+                <li class="contact__item">
+                  <a class="contact__link" href="">brandoxide@gmail.com</a>
+                </li>
+                <li class="contact__item">
+                  <a class="contact__link" href="">002-568423591</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="follow">
+            <b class="footer__title">Follow Us</b>
+            <ul class="follow__list">
+              <li class="follow__item">
+                <a class="follow__link" href="">
+                  <svg class="follow__svg">
+                    <use href="./images/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="follow__item">
+                <a class="follow__link" href="">
+                  <svg class="follow__svg">
+                    <use href="./images/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="follow__item">
+                <a class="follow__link" href="">
+                  <svg class="follow__svg">
+                    <use href="./images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="follow__item">
+                <a class="follow__link" href="">
+                  <svg class="follow__svg">
+                    <use href="./images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copy">
+          <p class="footer__copy">
+            Copyright &copy; 2020<span class="footer__copy--color">Brandoxide</span>.all right
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+@import './utils/variables';
+@import './base/normalize';
+@import './base/reset';
+@import './base/general';
+@import './utils/mixin';
+
+@import './components/header';
+@import './components/hero';
+@import './components/service';
+@import './components/about';
+@import './components/successful';
+@import './components/work';
+@import './components/testimonials';
+@import './components/blog';
+@import './components/subscribe';
+@import './components/footer';

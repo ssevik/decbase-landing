@@ -1,0 +1,62 @@
+.nav {
+  display: flex;
+  align-items: center;
+
+  @include padding(1.888em 0.888em 5.222em 0);
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.header-menu {
+  display: flex;
+
+  &__item:not(:last-child) {
+    margin-right: 1.111em;
+  }
+}
+
+.header-menu__link {
+  color: $accent-text-color;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.375;
+
+  @include transition(color);
+
+  &:hover,
+  &:focus {
+    color: $text-color;
+  }
+}
+
+.header-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 4em;
+
+  @include padding(0 0.312rem);
+
+  min-width: 87px;
+  min-height: 32px;
+
+  background-color: $bg-color;
+  color: $btn-text-color;
+
+  border-top-left-radius: 0.937rem;
+  border-bottom-right-radius: 0.937rem;
+
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.375;
+
+  @include transition(background-color);
+
+  &:hover,
+  &:focus {
+    background-color: $hover-color;
+  }
+}
